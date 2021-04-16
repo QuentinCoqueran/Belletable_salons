@@ -15,7 +15,7 @@ Application .NET PPE Belletable_salons
   login : test2  
   mdp : 123
   
-  Avant de de se rendre sur l'application vous devez importer le fichier SQL dans votre SGBD afin d'avoir tous les éléments
+  Avant de de se rendre sur l'application vous devez importer le fichier SQL : cppe(1).sql dans votre SGBD afin d'avoir tous les éléments
   nécessaires au bon focntionnement de l'application Belletable_salons!
 
   Il vous faudra pour le fonctionnement des codes barres installer code_128.zip qui se trouve dans les fichier du projet
