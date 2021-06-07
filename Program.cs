@@ -53,14 +53,14 @@ namespace ppe1
             else
                 MonFormLogin.Close();
             MessageBox.Show("Au revoir");
-           
         }
 
         static private void logSql(int niveauUtilisateur, int idUtilisateur, string nomUtilisateur, string prenomUtilisateur, string connectionDeconnection)
         {
             //DateTime localDate = DateTime.Now; //il est pas au bon format
             string localDateString = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss");
-            string _connexionString = "server = localhost; user id = root;database=cppe";
+
+            string _connexionString = "server=192.168.16.210;user id=root;database=belletable_salons_quentin";
             MySqlConnection conn = new MySqlConnection(_connexionString);
             conn.Open();
             if (connectionDeconnection == "connection")
